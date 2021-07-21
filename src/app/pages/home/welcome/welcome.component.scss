@@ -1,0 +1,31 @@
+.route-content {
+  flex-direction: row;
+  height: 40vh;
+}
+
+.left-big-text, .right-small-text {
+  width: 45vw;
+  padding: 0 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.left-big-text {
+  align-items: center;
+  color: #673ab7;
+  // color: #ffd740;
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+.right-small-text {
+  align-items: flex-start;
+  width: 35vw;
+  p {
+    font-size: 20px;
+    height: 100%;
+  }
+}
