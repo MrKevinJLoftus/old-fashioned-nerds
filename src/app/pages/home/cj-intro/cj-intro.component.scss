@@ -1,24 +1,24 @@
 .route-content {
   flex-direction: row;
-  height: 40vh;
+  height: 55vh;
   background-color: #121212;
 }
 
-.left-big-text, .right-small-text {
+.cj-headshot {
+  background-image: url("../../../../assets/Ceej.jpg");
+  height: 45vh;
+  width: 25vw;
+  background-position:top;
+  background-size: cover;
+}
+
+.right-small-text {
   width: 45vw;
   padding: 0 2vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-family: 'Montserrat', sans-serif;
-}
-
-.left-big-text {
-  align-items: center;
-  color: #00bcd4;
-  h1 {
-    font-size: 5rem;
-  }
 }
 
 .right-small-text {
@@ -28,8 +28,5 @@
   p {
     font-size: 20px;
     height: 100%;
-    a {
-      color: #00bcd4;
-    }
   }
 }

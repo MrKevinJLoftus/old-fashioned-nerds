@@ -1,0 +1,24 @@
+.image-banner {
+  background-image: url("../../../../assets/studio.jpg");
+  background-position:bottom;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  button {
+    margin: 1rem;
+    color: white;
+  }
+}
+.episode-list {
+  background-color: #121212;
+  height: 50vh;
+  max-width: 100%;
+  width: 100vw;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
