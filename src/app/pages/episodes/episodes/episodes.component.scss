@@ -10,11 +10,17 @@
     margin: 1rem;
     color: white;
   }
+  h1 {
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 7vw;
+    justify-self: center;
+    align-self: center;
+  }
 }
 .episode-list {
   background-color: #121212;
   height: 50vh;
-  max-width: 100%;
+  max-width: 100% !important;
   width: 100vw;
   color: white;
   display: flex;

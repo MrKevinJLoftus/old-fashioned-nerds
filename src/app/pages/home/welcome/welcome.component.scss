@@ -1,3 +1,5 @@
+
+
 .route-content {
   flex-direction: row;
   height: 40vh;
@@ -15,9 +17,11 @@
 
 .left-big-text {
   align-items: center;
-  color: #00bcd4;
+  // color: #00bcd4;
+  color: #FF8F00;
   h1 {
-    font-size: 5rem;
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 5vw;
   }
 }
 
@@ -29,7 +33,8 @@
     font-size: 20px;
     height: 100%;
     a {
-      color: #00bcd4;
+      // color: #00bcd4;
+      color: #FF8F00;
     }
   }
 }

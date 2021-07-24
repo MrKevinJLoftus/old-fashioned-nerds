@@ -17,7 +17,7 @@ body { margin: 0; font-family: 'Montserrat', Roboto, "Helvetica Neue", sans-seri
 
 .route-content {
   width: 100vw;
-  max-width: 100%;
+  max-width: 100% !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,7 +30,7 @@ body { margin: 0; font-family: 'Montserrat', Roboto, "Helvetica Neue", sans-seri
 
 .image-banner {
   width: 100vw;
-  max-width: 100%;
+  max-width: 100% !important;
   height: 45vh;
   background-position: center;
   background-size: cover;
