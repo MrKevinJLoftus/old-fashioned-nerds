@@ -1,14 +1,50 @@
+@import '../../../../variables.scss';
+
 .image-banner {
   background-image: url("../../../../assets/catan.jpg");
 }
 
 button {
-  height: 8vh;
-  width: 13vw;
-  font-size: 1.5vw;
-  background-color: #121212;
-  // color: #00bcd4;
-  color: #FF8F00;
+  font-size: 1.5rem;
+  background-color: $dark-mode-bg;
+  color: $big-yellow;
   opacity: .85;
   white-space: pre-wrap !important;
 }
+
+
+@media only screen and (min-width: $large + 1px) {
+  button {
+    height: 8vh;
+    width: 13vw;
+  }
+}
+
+@media only screen and (min-width: $medium + 1px) and (max-width: $large) {
+  button {
+    height: 120px;
+    width: 240px;
+  }
+}
+
+@media only screen and (min-width: $small + 1px) and (max-width: $medium) {
+  button {
+    height: 120px;
+    width: 240px;
+  }
+}
+
+@media only screen and (max-width: $small) {
+  button {
+    height: 120px;
+    width: 240px;
+  }
+}
+
+@media only screen and (max-width: $iphone-ls) and (orientation:landscape) {
+  button {
+    height: 120px;
+    width: 240px;
+  }
+}
+

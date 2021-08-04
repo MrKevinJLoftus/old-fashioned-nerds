@@ -1,3 +1,8 @@
+.route-content {
+  flex-direction: column;
+  height: 100vh;
+}
+
 .image-banner {
   background-image: url("../../../../assets/studio.jpg");
   background-position:bottom;
@@ -12,7 +17,7 @@
   }
   h1 {
     font-family: 'Great Vibes', sans-serif;
-    font-size: 7vw;
+    font-size: 72px;
     justify-self: center;
     align-self: center;
     color: #FF8F00;
@@ -28,4 +33,9 @@
   justify-content: center;
   align-items: center;
   font-size: 3rem;
+  p {
+    line-height: normal;
+    width: 95vw;
+    text-align: center;
+  }
 }

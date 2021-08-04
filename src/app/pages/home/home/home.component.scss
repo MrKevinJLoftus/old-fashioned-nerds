@@ -1,3 +1,5 @@
+@import '../../../../variables.scss';
+
 .image-banner {
   background-image: url("../../../../assets/cocktail.jpg");
   justify-content: flex-end;
@@ -6,4 +8,24 @@
 .large-text {
   font-size: 4.5vw;
   margin: 0 2rem;
+}
+
+.container {
+  width: 100vw;
+  max-width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: $small) {
+  .image-banner {
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .large-text {
+    font-size: 2rem;
+    margin: 2rem 0;
+  }
 }

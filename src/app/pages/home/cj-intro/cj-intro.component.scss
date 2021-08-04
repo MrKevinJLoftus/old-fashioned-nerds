@@ -1,32 +1,15 @@
+@import '../../../../variables.scss';
+
 .route-content {
-  flex-direction: row;
-  height: 55vh;
-  background-color: #121212;
+  background-color: $dark-mode-bg;
 }
 
-.cj-headshot {
+.headshot {
   background-image: url("../../../../assets/Ceej.jpg");
-  height: 45vh;
-  width: 25vw;
   background-position:top;
   background-size: cover;
 }
 
 .right-small-text {
-  width: 45vw;
-  padding: 0 2vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.right-small-text {
-  align-items: flex-start;
-  width: 35vw;
-  color: lightgray;
-  p {
-    font-size: 20px;
-    height: 100%;
-  }
+  margin: 1rem;
 }
