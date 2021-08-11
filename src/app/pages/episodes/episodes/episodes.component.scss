@@ -1,3 +1,5 @@
+@import '../../../../variables.scss';
+
 .route-content {
   flex-direction: column;
   height: 100vh;
@@ -26,16 +28,44 @@
 .episode-list {
   background-color: #121212;
   height: 60vh;
-  max-width: 100% !important;
   width: 100vw;
   color: white;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 3rem;
-  p {
-    line-height: normal;
+  iframe {
+    width: 75vw;
+  }
+}
+
+@media only screen and (min-width: $large + 1px) {
+  .episode-list iframe {
+    width: 75vw;
+  }
+}
+
+@media only screen and (min-width: $medium + 1px) and (max-width: $large) {
+  .episode-list iframe {
+    width: 80vw;
+  }
+}
+
+@media only screen and (min-width: $small + 1px) and (max-width: $medium) {
+  .episode-list iframe {
     width: 95vw;
-    text-align: center;
+  }
+}
+
+@media only screen and (max-width: $small) {
+  .episode-list iframe {
+    width: 95vw;
+  }
+}
+
+@media only screen and (max-width: $iphone-ls) and (orientation:landscape) {
+  .episode-list iframe {
+    width: 85vw;
   }
 }
