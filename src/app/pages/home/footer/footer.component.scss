@@ -3,7 +3,27 @@
   flex-direction: row;
   height: 5vh;
   a {
-    margin: 0 2rem;
+    margin: 0 2rem 0 1rem;
     color: white;
+  }
+}
+
+.social-icons {
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1rem;
+}
+
+.social-icon {
+  cursor: pointer;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin: 0 1rem;
+  a img {
+    height: 100%;
+    width: 100%;
   }
 }
